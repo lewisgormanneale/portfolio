@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import "./NavList.css";
 import { IoMenu, IoMoon } from "react-icons/io5";
@@ -14,6 +14,15 @@ export default function NavList({ toggleScrollArrowVisibility }) {
       theme.dispatch({ type: "DARKMODE" });
     }
   };
+
+  useEffect(() => {
+    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkThemeMq.matches) {
+      toggleDarkMode();
+    } else {
+      // Theme set to light.
+    }
+  }, []);
 
   const [navMenuVisibility, setNavMenuVisibility] =
     useState("nav-menu-container");

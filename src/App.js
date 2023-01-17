@@ -10,6 +10,7 @@ import Toolkit from "./components/Toolkit/Toolkit";
 function App() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
   return (
     <div className={`app ${darkMode ? "app-dark" : "app-light"}`}>
       <Header />
