@@ -32,8 +32,8 @@ export default function Header() {
           </div>
           <div className="avatar-container">
             <img
-              src="images/soc-avatar.png"
-              alt="A pixelated avatar of Lewis"
+              src="images/avatar.png"
+              alt="A selfie of Lewis"
               className="avatar"
             ></img>
           </div>

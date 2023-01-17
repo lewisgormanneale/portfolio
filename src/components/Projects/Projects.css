@@ -82,12 +82,12 @@
   object-position: center;
 }
 
-#rumu-project > .project-screenshot {
-  object-position: center center;
+#portfolio-project > .project-screenshot {
+  object-position: center;
 }
 
 #ptp-project {
-  background-color: #efc416e4;
+  background-color: #500000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,14 +96,14 @@
 #ptp-project > .project-screenshot {
   object-position: center top;
   object-fit: contain;
-  background-color: white;
+  background-color: rgb(236, 236, 236);
   width: 90%;
   border-radius: 10px;
   height: 45%;
   object-position: center;
 }
 
-#soc-project > .project-screenshot {
+#indygo-project > .project-screenshot {
   object-position: center center;
 }
 

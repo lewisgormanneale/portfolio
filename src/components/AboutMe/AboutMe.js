@@ -46,7 +46,7 @@ export default function AboutMe() {
         </div>
         <div className="image-container">
           <img src="images/real-me.jpg" alt="me irl" className="me-irl"></img>
-          <p>(This will be an actual picture of me at some point)</p>
+          <p>(To-Do: Find another picture of myself to put in here...)</p>
         </div>
       </div>
     </section>
