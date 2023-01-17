@@ -14,34 +14,25 @@ export default function AboutMe() {
       <div className="about-me-content">
         <div className="about-me-description">
           <p>
-            Hello again!{" "}
-            <span>Thanks for taking a look at my portfolio website</span>. As
-            you may have seen already, I'm an aspiring developer currently
-            enrolled at the School Of Code bootcamp learning Full Stack
-            Development. It teaches the <span>fundamentals of programming</span>
-            , how to work in a <span>high performance tech team</span> and how
-            to work to <span>industry best practices and standards</span>.
-          </p>
-          <p>
-            Most recently in my career I held an{" "}
-            <span>IT role as a Senior Business Systems Analyst</span>, where I
-            worked on improving business processes and systems, while helping
-            colleagues with techical issues. I really enjoyed finding solutions
-            that helped others, but <span>wanted to be able to do more</span> -
-            I wanted to be capable of building my own solutions to problems that
-            required custom solutions. <span>I wanted to be a developer!</span>
-          </p>
-          <p>
-            Once I began learning to code for myself,
-            <span> I knew it was the career path for me</span> and enrolled in
-            the School of Code. I've had the time of my life learning to code
-            and building the projects you can see above over the last few
-            months, and{" "}
+            Hello again! Thanks for taking a look at my portfolio website.{" "}
             <span>
-              plan to take this energy forward into this new career path
-            </span>
-            , continuing to develop my coding knowledge and progress my skills
-            as far as possible.
+              I'm an aspiring developer trained in Full Stack Development at the
+              School of Code.
+            </span>{" "}
+            In my previous work as a Business Systems Analyst, I always enjoyed
+            finding solutions that helped others. But I wanted to be able to do
+            more, and be able to build these solutions for myself -{" "}
+            <span>I wanted to be a developer!</span>
+          </p>
+          <p>
+            Once I began learning to code, I knew it was the career path for me
+            and enrolled in the<span> School of Code </span>bootcamp. It teaches
+            the fundamentals of programming, how to work in a high performance
+            tech team, and how to work to industry best practices and standards.
+            I've had the
+            <span> time of my life </span>learning to code and building projects
+            since last year, and am<span> taking this energy forward </span>into
+            my new career as I continue to work on developing my skills.
           </p>
         </div>
         <div className="image-container">
