@@ -19,6 +19,7 @@ export default function Projects() {
           href="https://github.com/lewisgormanneale"
           target="_blank"
           rel="noreferrer"
+          aria-label="link to my GitHub profile"
         >
           GitHub <IoLogoGithub />
         </a>
@@ -27,29 +28,32 @@ export default function Projects() {
         <div className="project project-large" id="indygo-project">
           <img
             className="project-screenshot"
-            src="images/indygo-logo.png"
+            src="images/indygo-logo.webp"
             alt="project screenshot"
           ></img>
           <div className="project-overlay">
             <h3>IndyGo</h3>
             <p>
               My final project for School of Code, built in an agile team of six
-              bootcampers over four weeks. Coming soon!
+              bootcampers over four weeks. IndyGo enables businesses to offer
+              live, limited-time deals to consumers within a walkable distance.
             </p>
             <div className="project-links">
               <a
-                href="https://github.com/lewisgormanneale"
+                href="https://indygo.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="link to the IndyGo website"
               >
                 View Live
               </a>
               <a
-                href="https://github.com/lewisgormanneale"
+                href="https://github.com/SchoolOfCode/indygo"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="link to the IndyGo GitHub repo"
               >
                 GitHub
               </a>
@@ -59,7 +63,7 @@ export default function Projects() {
         <div className="project project-small" id="ptp-project">
           <img
             className="project-screenshot"
-            src="images/ptp-logo.png"
+            src="images/ptp-logo.webp"
             alt="project screenshot"
           ></img>
           <div className="project-overlay">
@@ -74,6 +78,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="link to the Pokémon Team Planner website"
               >
                 View Live
               </a>
@@ -82,6 +87,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="link to the Pokémon Team Planner's GitHub repo"
               >
                 GitHub
               </a>
@@ -93,7 +99,7 @@ export default function Projects() {
         <div className="project project-small" id="portfolio-project">
           <img
             className="project-screenshot"
-            src="images/portfolio-screenshot.png"
+            src="images/portfolio-screenshot.webp"
             alt="project screenshot"
           ></img>
           <div className="project-overlay">
@@ -108,6 +114,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="link to this portfolio's GitHub repo"
               >
                 GitHub
               </a>
@@ -117,7 +124,7 @@ export default function Projects() {
         <div className="project project-large" id="mdoc-project">
           <img
             className="project-screenshot"
-            src="images/mdoc-logo.png"
+            src="images/mdoc-logo.webp"
             alt="project screenshot"
           ></img>
           <div className="project-overlay">
@@ -129,6 +136,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="Link to the My Days Of Code website"
               >
                 View Live
               </a>
@@ -137,6 +145,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
+                aria-label="Link to the My Days Of Code GitHub repo"
               >
                 GitHub
               </a>

@@ -34,7 +34,8 @@
   text-align: center;
 }
 
-.me-irl {
-  width: 300px;
+.soc-logo {
   border-radius: 10px;
+  object-position: center center;
+  object-fit: cover;
 }

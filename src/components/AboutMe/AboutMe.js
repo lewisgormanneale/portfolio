@@ -36,8 +36,13 @@ export default function AboutMe() {
           </p>
         </div>
         <div className="image-container">
-          <img src="images/real-me.jpg" alt="me irl" className="me-irl"></img>
-          <p>(To-Do: Find another picture of myself to put in here...)</p>
+          <img
+            src="images/soc-logo.webp"
+            alt="school of code logo"
+            className="soc-logo"
+            width={300}
+            height={300}
+          ></img>
         </div>
       </div>
     </section>

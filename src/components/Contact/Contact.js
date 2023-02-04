@@ -16,11 +16,13 @@ export default function Contact() {
         <div className="contact-greeting-and-socials">
           <div className="contact-greeting">
             <p>
-              I'm enrolled on the School of Code until{" "}
-              <span>February 2023</span>, at which point{" "}
-              <span>I'm looking for a job as a developer</span>. If you'd like
-              to discuss a potential opportunity or anything else, please reach
-              out to me!
+              In
+              <span> February 2023</span> I graduated from the School Of Code,
+              and
+              <span> I'm now looking for a full-time job as a developer</span>.
+              If you'd like to discuss a potential opportunity with me, or just
+              wanted to have a chat, the best way to contact me is through
+              LinkedIn!
             </p>
           </div>
           <div className="social-icons">
