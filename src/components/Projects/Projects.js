@@ -74,7 +74,7 @@ export default function Projects() {
             </p>
             <div className="project-links">
               <a
-                href="https://lewisgormanneale.github.io/pokemon-team-planner/"
+                href="https://gracidea-tools.vercel.app/teamplanner"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
@@ -83,7 +83,7 @@ export default function Projects() {
                 View Live
               </a>
               <a
-                href="https://github.com/lewisgormanneale/pokemon-team-planner"
+                href="https://github.com/lewisgormanneale/gracidea"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
