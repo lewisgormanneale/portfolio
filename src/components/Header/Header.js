@@ -14,7 +14,16 @@ export default function Header() {
               <span>Hi, I'm Lewis</span> 👋🏻
             </h1>
             <p>
-              Trained in <span>Full Stack Development</span> 💻
+              Frontend Developer @{" "}
+              <a
+                href="https://www.codeweavers.net/"
+                target="_blank"
+                rel="noreferrer"
+                className="emphasise"
+              >
+                Codeweavers
+              </a>{" "}
+              💻
             </p>
             <p>
               <span>
