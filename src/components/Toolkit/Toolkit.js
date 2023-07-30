@@ -10,7 +10,7 @@ export default function Toolkit() {
     <section
       className={`toolkit ${darkMode ? "toolkit-dark" : "toolkit-light"}`}
     >
-      <h2>My Toolkit 🧰</h2>
+      <h2>Skills 🧰</h2>
       <span>(A-Z)</span>
       <div className="toolkit-content">
         <div className="toolkit-icons">
@@ -45,6 +45,11 @@ export default function Toolkit() {
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
           />
           <ToolkitIcon
+            name="Git"
+            url="https://git-scm.com/"
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
+          />
+          <ToolkitIcon
             name="JavaScript"
             url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
@@ -55,7 +60,7 @@ export default function Toolkit() {
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
           />
           <ToolkitIcon
-            name="PostgreSQL"
+            name="Postgres"
             url="https://www.postgresql.org/"
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
           />
@@ -65,9 +70,19 @@ export default function Toolkit() {
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
           />
           <ToolkitIcon
+            name="Sass"
+            url="https://sass-lang.com/"
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
+          />
+          <ToolkitIcon
             name="Supabase"
             url="https://supabase.io/"
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg"
+          />
+          <ToolkitIcon
+            name="Tailwind CSS"
+            url="https://tailwindcss.com/"
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
           />
           <ToolkitIcon
             name="TypeScript"

@@ -22,7 +22,7 @@
 .toolkit-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   max-width: 1000px;
   padding-top: 30px;

@@ -22,3 +22,12 @@
 .toolkit-icon > a:hover {
   background-color: rgba(187, 187, 187, 0.28);
 }
+
+.toolkit-icon > p {
+  max-width: 60px;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
