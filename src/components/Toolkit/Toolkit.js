@@ -15,6 +15,16 @@ export default function Toolkit() {
       <div className="toolkit-content">
         <div className="toolkit-icons">
           <ToolkitIcon
+            name="Angular"
+            url="https://angular.io/"
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg"
+          />
+          <ToolkitIcon
+            name="Bootstrap"
+            url="https://getbootstrap.com/"
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+          />
+          <ToolkitIcon
             name="CSS3"
             url="https://www.w3.org/TR/CSS/#css"
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
