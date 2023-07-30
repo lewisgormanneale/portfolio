@@ -86,21 +86,17 @@
   object-position: center;
 }
 
-#ptp-project {
-  background-color: #500000;
+#gracidea-project {
+  background-color: #30c767;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#ptp-project > .project-screenshot {
-  object-position: center top;
+#gracidea-project > .project-screenshot {
   object-fit: contain;
-  background-color: rgb(236, 236, 236);
-  width: 90%;
-  border-radius: 10px;
-  height: 45%;
-  object-position: center;
+  object-position: center center;
+  height: 50%;
 }
 
 #indygo-project > .project-screenshot {

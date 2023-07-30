@@ -10,9 +10,7 @@ export default function Header() {
       <header className="header">
         <div className="main-header-content">
           <div className="header-text">
-            <h1>
-              <span>Hi, I'm Lewis</span> 👋🏻
-            </h1>
+            <h1 className="emphasise">Hi, I'm Lewis 👋🏻</h1>
             <p>
               Frontend Developer @{" "}
               <a

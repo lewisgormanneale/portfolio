@@ -60,25 +60,25 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="project project-small" id="ptp-project">
+        <div className="project project-small" id="gracidea-project">
           <img
             className="project-screenshot"
-            src="images/ptp-logo.webp"
+            src="images/gracidea-logo.webp"
             alt="project screenshot"
           ></img>
           <div className="project-overlay">
-            <h3>Pokémon Team Planner</h3>
+            <h3>Gracidea</h3>
             <p>
-              A Pokémon Team Planner to help you plan out a team of 6 for games
-              in the popular RPG series.
+              Pokémon-themed site built with Angular. A place for me to build
+              Pokémon-related tools for fun and coding practice.
             </p>
             <div className="project-links">
               <a
-                href="https://gracidea-tools.vercel.app/teamplanner"
+                href="https://gracidea.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button"
-                aria-label="link to the Pokémon Team Planner website"
+                aria-label="link to the Gracidea website"
               >
                 View Live
               </a>
