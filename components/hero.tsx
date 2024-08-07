@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Box } from "./ui/threejs/box";
 import { Suspense } from "react";
 import { Loader } from "./ui/threejs/loader";
+import { AsciiRenderer, OrbitControls } from "@react-three/drei";
 
 export default function Hero() {
   return (
@@ -14,6 +15,7 @@ export default function Hero() {
           position: [-6, 7, 7],
         }}
       >
+        <color attach="background" args={["black"]} />
         <Suspense fallback={<Loader />}>
           <ambientLight intensity={Math.PI / 2} />
           <spotLight
@@ -31,6 +33,8 @@ export default function Hero() {
           <Box position={[-1.2, 0, 0]} />
           <Box position={[1.2, 0, 0]} />
         </Suspense>
+        <OrbitControls />
+        <AsciiRenderer fgColor="white" bgColor="black" />
       </Canvas>
     </section>
   );
