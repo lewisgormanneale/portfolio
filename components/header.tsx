@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="fixed top-10 flex justify-between p-3">
+    <header className="absolute top-10 left-10 flex justify-between">
       <Link className="font-serif" href="/">
         lewis gorman-neale
       </Link>
