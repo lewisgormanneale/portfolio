@@ -1,10 +1,10 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { Box } from "./ui/threejs/box";
 import { Suspense } from "react";
 import { Loader } from "./ui/threejs/loader";
-import { AsciiRenderer, OrbitControls } from "@react-three/drei";
+import { AsciiRenderer } from "@react-three/drei";
+import { Flow } from "./ui/threejs/flow";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
       <Canvas
         shadows
         camera={{
-          position: [-6, 7, 7],
+          position: [0, 0, 5],
         }}
       >
         <color attach="background" args={["black"]} />
@@ -30,10 +30,8 @@ export default function Hero() {
             decay={0}
             intensity={Math.PI}
           />
-          <Box position={[-1.2, 0, 0]} />
-          <Box position={[1.2, 0, 0]} />
+          <Flow />
         </Suspense>
-        <OrbitControls />
         <AsciiRenderer fgColor="white" bgColor="black" />
       </Canvas>
     </section>
