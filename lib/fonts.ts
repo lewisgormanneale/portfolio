@@ -1,12 +1,19 @@
-import { Inter as FontSans, Unbounded } from "next/font/google";
+import { Inter, JetBrains_Mono, Unbounded } from "next/font/google";
 
-export const font_sans = FontSans({
+export const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-inter",
+  display: "swap",
+});
+
+export const jetbrains_mono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+  display: "swap",
 });
 
 export const unbounded = Unbounded({
-  weight: "400",
   subsets: ["latin"],
+  variable: "--font-unbounded",
   display: "swap",
 });

@@ -1,6 +1,4 @@
 import Hero from "@/components/hero";
-import { unbounded } from "@/lib/fonts";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Fragment } from "react";
 
@@ -11,7 +9,7 @@ export default function Home() {
         <Hero />
       </section>
       <div className="absolute bottom-10 flex justify-center w-full z-10">
-        <Link className={unbounded.className} href="/portfolio">
+        <Link className="font-unbounded" href="/portfolio">
           view projects
         </Link>
       </div>

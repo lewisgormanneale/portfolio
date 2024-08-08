@@ -1,4 +1,6 @@
 import { Badge } from "@/components/ui/badge";
+import { jetbrains_mono } from "@/lib/fonts";
+import { cn } from "@/lib/utils";
 import { Fragment } from "react";
 
 export default function Portfolio() {
@@ -12,7 +14,7 @@ export default function Portfolio() {
           <div className="h-72 w-72 bg-white"></div>
         </div>
       </section>
-      <section>
+      <section className="font-mono">
         <h3 className="ml-2">all</h3>
         <ul>
           <li className="flex gap-2">
