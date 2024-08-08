@@ -1,15 +1,9 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
-import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
-
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+import { font_sans } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "Lewis Gorman-Neale",
@@ -25,8 +19,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          "min-h-screen bg-background font-unbounded antialiased",
+          font_sans.className
         )}
       >
         <ThemeProvider
@@ -39,7 +33,6 @@ export default function RootLayout({
           <div className="flex">
             <main className="w-full">{children}</main>
           </div>
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
