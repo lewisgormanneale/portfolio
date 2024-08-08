@@ -8,7 +8,7 @@ import { Flow } from "./ui/threejs/flow";
 
 export default function Hero() {
   return (
-    <section className="w-screen h-screen">
+    <section className="w-full h-[calc(100vh-80px)] bg-background">
       <Canvas
         shadows
         camera={{

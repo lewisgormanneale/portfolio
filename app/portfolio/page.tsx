@@ -4,8 +4,8 @@ import { Fragment } from "react";
 export default function Portfolio() {
   return (
     <Fragment>
-      <section className="mt-32 h-80 flex items-center font-unbounded">
-        <h2 className="text-4xl [writing-mode:vertical-lr] rotate-180 px-4">
+      <section className="h-80 flex items-center">
+        <h2 className="text-4xl [writing-mode:vertical-lr] rotate-180 px-4 font-unbounded">
           featured
         </h2>
         <div className="flex gap-8 w-full">

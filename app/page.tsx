@@ -5,7 +5,7 @@ import { Fragment } from "react";
 export default function Home() {
   return (
     <Fragment>
-      <section className="flex min-h-screen flex-col items-center">
+      <section className="flex flex-col items-center">
         <Hero />
       </section>
       <div className="absolute bottom-10 flex justify-center w-full z-10">

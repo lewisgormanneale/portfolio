@@ -25,7 +25,7 @@ export default function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <body className="min-h-screen bg-background antialiased">
+      <body className="h-screen bg-background antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -33,7 +33,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <div className="flex">
+          <div className="flex pt-20">
             <main className="w-full">{children}</main>
           </div>
         </ThemeProvider>
