@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 102 0% 95%;
+    --foreground: 102 0% 0%;
+    --card: 102 0% 90%;
+    --card-foreground: 102 0% 10%;
+    --popover: 102 0% 95%;
+    --popover-foreground: 102 95% 0%;
+    --primary: 102 0% 100%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 102 10% 70%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 64 10% 85%;
+    --muted-foreground: 102 0% 35%;
+    --accent: 64 10% 80%;
+    --accent-foreground: 102 0% 10%;
+    --destructive: 0 50% 30%;
+    --destructive-foreground: 102 0% 90%;
+    --border: 102 20% 50%;
+    --input: 102 20% 18%;
+    --ring: 102 0% 100%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 102 10% 5%;
+    --foreground: 102 0% 90%;
+    --card: 102 0% 0%;
+    --card-foreground: 102 0% 90%;
+    --popover: 102 10% 5%;
+    --popover-foreground: 102 0% 90%;
+    --primary: 102 0% 100%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 102 10% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 64 10% 15%;
+    --muted-foreground: 102 0% 60%;
+    --accent: 64 10% 15%;
+    --accent-foreground: 102 0% 90%;
+    --destructive: 0 50% 30%;
+    --destructive-foreground: 102 0% 90%;
+    --border: 102 20% 18%;
+    --input: 102 20% 18%;
+    --ring: 102 0% 100%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes slide-bg {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 0%;
+  }
+}
