@@ -41,10 +41,17 @@ export function Project({
           <a
             href={githubUrl}
             className={buttonVariants({ variant: "outline" })}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
-          <a href={liveUrl} className={buttonVariants({ variant: "default" })}>
+          <a
+            href={liveUrl}
+            className={buttonVariants({ variant: "default" })}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Live
           </a>
         </div>
