@@ -1,22 +1,22 @@
 import { Badge } from "@/components/ui/badge";
-import { jetbrains_mono } from "@/lib/fonts";
-import { cn } from "@/lib/utils";
 import { Fragment } from "react";
 
 export default function Portfolio() {
   return (
     <Fragment>
-      <section className="mt-32 flex flex-col mb-8">
-        <h3 className="ml-2">featured</h3>
-        <div className="flex gap-8 px-4 mt-3">
-          <div className="h-72 w-72 bg-white"></div>
-          <div className="h-72 w-72 bg-white"></div>
-          <div className="h-72 w-72 bg-white"></div>
+      <section className="mt-32 h-80 flex items-center font-unbounded">
+        <h2 className="text-4xl [writing-mode:vertical-lr] rotate-180 px-4">
+          featured
+        </h2>
+        <div className="flex gap-8 w-full">
+          <div className="h-72 w-72 bg-secondary"></div>
         </div>
       </section>
-      <section className="font-mono">
-        <h3 className="ml-2">all</h3>
-        <ul>
+      <section className="h-2/3 flex items-center justify-start gap-2 font-mono">
+        <h2 className="text-4xl [writing-mode:vertical-lr] rotate-180 font-unbounded px-4">
+          all
+        </h2>
+        <ul className="h-2/3">
           <li className="flex gap-2">
             <a href="https://teiai-group.vercel.app/">Teiai Group</a>
             <Badge variant="outline">
