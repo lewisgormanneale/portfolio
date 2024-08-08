@@ -25,7 +25,7 @@ export default function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <body className="h-screen bg-background antialiased">
+      <body className="h-screen bg-background antialiased overflow-x-hidden">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
