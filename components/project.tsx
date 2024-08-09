@@ -28,7 +28,7 @@ export function Project({
         <CardDescription>{description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <ul className="flex gap-2">
+        <ul className="flex gap-2 flex-wrap">
           {techStack.map((tech) => (
             <li key={tech}>
               <Badge variant="outline">{tech}</Badge>

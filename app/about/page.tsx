@@ -43,7 +43,7 @@ export default function About() {
           </ul>
         </div>
       </section>
-      <section className="flex items-center justify-center gap-8">
+      <section className="flex items-center justify-center gap-8 mb-8">
         <div className="w-1/2 flex items-center  max-w-[600px]">
           <h2 className="text-3xl [writing-mode:vertical-lr] rotate-180 px-4 font-unbounded">
             skills

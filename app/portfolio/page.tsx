@@ -13,10 +13,10 @@ export default function Portfolio() {
         </div>
       </section> */}
       <section className="h-2/3 flex items-center gap-2 font-mono">
-        <h2 className="text-4xl [writing-mode:vertical-lr] rotate-180 px-4 font-unbounded">
+        <h2 className="text-4xl [writing-mode:vertical-lr] rotate-180 px-1 sm:px-4 font-unbounded">
           all
         </h2>
-        <div className="h-2/3 max-w-[800px] flex flex-col gap-2">
+        <div className="h-2/3 flex gap-2 flex-wrap max-w-[310px]">
           <Project
             title="Dubious Disc"
             description="Pokémon site built with Angular, with a Pokédex, news feed, and more."
